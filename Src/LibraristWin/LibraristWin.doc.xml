@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraristWin</name>
+    </assembly>
+    <members>
+        <member name="F:Librarist.Win.Program.mutex">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.EditItem.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.EditItem.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.EditItem.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.ReturnTransaction.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.ReturnTransaction.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.ReturnTransaction.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.FormDebug.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.FormDebug.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.FormDebug.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.FormMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.FormMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.FormMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.TransactionInfo.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.TransactionInfo.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.TransactionInfo.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.FormAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.FormAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.FormAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.ViewLibrary.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.ViewLibrary.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.ViewLibrary.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.ViewPeople.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.ViewPeople.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.ViewPeople.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Librarist.Win.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Librarist.Win.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Librarist.Win.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.EditTransaction.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.EditTransaction.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.EditTransaction.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Librarist.Win.Forms.Controls.EditPerson.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.EditPerson.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Librarist.Win.Forms.Controls.EditPerson.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

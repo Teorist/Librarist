@@ -1,0 +1,64 @@
+SPECS
+-----------------------------------------------
+Easy to use, fast, with a minimum of data needed but able to take in a lot of optional details
+Interface
+- List media
+ * Add media button
+ * Modify and delete options.
+ * See detail option: person who borrowed this with lending date.
+ ** Add lending (name, date - default today). Check for conflicts.
+ ** Edit lending: modify or delete (name, date - default today). Check for conflicts.
+ * Differentiate lend or available media.  Add a lost status?
+ * Use a grid with multiselect, each item editable by double clicking.  Lend multiple items with same info, use an editable preview to confirm.
+ * Activate modify, delete, lend and return buttons only when a row is selected.
+- List people
+ * Add person button
+ * Modify and delete options
+ * See detail option: medias borrowed with lending dates.
+ ** Add lending (medias, date - default today). Check for conflicts.
+ ** Edit lending: modify or delete (medias, date - default today). Check for conflicts.
+ * Differentiate people who currently borrowed media.
+ * Use context menus.
+ * Use editable datagrids.
+ * Use an exception manager to output errors to the debug console (edit them to be easily identifiable on screenm, with time and stack information).
+ * Filter and sort the lists (people, library, transactions)
+- Extras
+ * Get info from ISDN
+ * Scan and get info from barcode.
+ * Icons for media types.  Configurable (xml files).
+ * Multiple owners or users.
+ * Lending period, configurable for all, by media type or at each instance
+ * Overdue alert.  Running service?
+ * Borrowing management?
+ * Multilanguage
+ * Comments on items and people.
+ * View the lending history of items and purge the history of one item or of multiple/all items.
+ * Regex validate names, emails, phones.
+ * Dropdown based item types with possibility of creating new.
+ * Make optional info hidden when creating a new item/person/transaction.
+ * Enventually migrate to JSON and small local databases.  JSON with a XSD definition?
+ * Make a Business Rules assembly using a JSON data transfer interface, to separate BRs and interface, as an experiment.  This will aslo make the application more easily portable to Android, as a cloud-based application: http://scialert.net/fulltext/?doi=itj.2013.224.228&org=11 (find a cloud if migration is desired).
+ * Create default configuration and setting file.
+ * Auto save.  Create an auto save thread and call after a time interval (configurable).  Cancel save if one already in place (mutex flag) except for exit save.  Do it on loss of focus/inactivity?  
+ * Expected return date: set default value (from configuration) on focus.
+ * Hide optional fields when creating a new item/person/transaction in an expandable "Details" holder.
+ * Improve user interface (create custom controls?) to make it more efficient, easier to user and pleasant.  Find a freeware to modelize.
+ * Custom controls for tabs (interface tests & modularity).
+ * Better exception handling
+ * Users: change color (based on items borrowed and items late) & show how many items are borrowed.  List borrowed items from secondary menu.
+ * Name change: Librarist.
+ * Security for binaries (MD5 check)
+ * Lending preview
+ * User datagrid or listview (test listview)
+- Debug
+ * Auto write debug on exit.  Set this in settings with default file.
+
+TO DO:
+ - Utiliser une approche agile pour determiner sur quoi on travaille.  Marquer les nouvelles choses a faire pour les iterations suivantes.
+ - Regler le probleme de sauvegarde (soit modifier les methode de sauvegarde, soit modifier le XML) pour ecrila version (pas tres important).
+ - Decider si on utilise un fichier XML ou plusieurs (ca peut attendre)
+ - Decider quoi faire avec les transactions quand on efface un usager ou un item.
+ - A la fin:
+   * Eliminer les #if DEBUG inutiles.
+   * Faire le menage dans les usings de toutes les classes.
+   * Enlever le code commente ou autrement inutile.

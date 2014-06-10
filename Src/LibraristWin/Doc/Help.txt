@@ -1,0 +1,13 @@
+﻿- Program options.
+  Calling the program with the "debug" option will activate a debug console that is accessible through the "Debug" menu item under "File".  For example "WinTeoLib debug".
+
+- Debug console.
+  The debug console is accessible through the "Debug" menu item under "File".  This menu item is made visible either by using a debug compile version or opening the sofware using the "debug" option such as this: "WinTeoLib debug".  The debug console allows to see tracing output from the code in order to help programming and identify problems.  At any moment, the console can be cleared with the "Clear" button or its output can be saved to a file using the "Save" button.  The console is opened in a non modal way, allowing access to the main program window.
+
+- Main Form
+  Debug console available through the "Debug" menu item, see above.
+  Loads/saves data from/into XML files in the Data subdirectory.  These files: Lending.xml, Library.xml and People.xml are validated against the schema from the file BibliTeo.xsd.
+  The data is loaded at start time and written at closing time.
+  Has two tabs: Library and People.
+   - Library lists all the items in the library with their status and any additional info entered by the user.  From here it is possible to add, modify, delete, lend, return items as well as view the lending history of a particular item and purge the history of an item or all of them.
+   - People lists all the people in the system.  From here it is possible to add, modify and delete people.

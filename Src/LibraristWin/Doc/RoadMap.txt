@@ -1,0 +1,43 @@
+﻿Version 1
+ - Move repository directory to the proper one
+ - Consistant user interface
+   * Grid control for users
+     ** Computed column with count of currently borrowed items (-- Status - In dev: use PersonViewModel.BorrowedItemsCount --)
+	 ** Highlight persons with borrowed items. (-- Status - In dev: use PersonViewModel.BorrowedItemsCount, PersonViewModel.IsLate  --)
+     ** Borrowed item preview (person, date, title, type) (-- Status - In dev: use TransactionInfo user control --)
+   * Resizing
+   * Help menu with link to webpage.
+   * Version verification with dialog and opening the download page.
+ - Basic lending and returning (-- Status - DONE with bugs! --)
+   * Clear history menu item (Settings).  Debug only?  (-- Status - In dev: use menuItemHistory, create new form --)
+ - Auto save
+   * Thread for saving either after a configured interval or after major user actions (add, delete, lend, return) and that is controlled by a mutex/semaphor.
+   * Forced saved on exit.
+ - Improved exception/error handling, improve reliability.
+ - Installer
+ DONE:
+  - Copy $(OutDir)* to ..\..\bin\
+  - Name change: Librarist
+  - Change namespace LibraristWin to Librarist.Win
+  - Change repository to Librarist
+  - Put the BRs in a core dll.
+  - Consistant user interface
+   * User controls for tabs
+   * Item status computation and highlight currently borrowed items
+   * Default sort. NOTE: sort when modifying items or people. (-- Status - DONE! --)
+   * Auto - select list item after adding or modifying. (-- Status - DONE! --)
+
+Version 2
+ - History: viewable from items or persons
+ - Expected date management
+   * Read default interval length from settings but allow the user to set each day individually.
+ - Highlight late items
+ - Highlight user with late items
+
+Version 3
+ - Multilanguage: English, French, Romanian
+   * Add resource file for each language
+   * Load text for forms and user controls.
+   * Identify strings and replace them with calls to the resource manager.
+ - Sorting and filtering
+ - Use JSON instead of XML as a DB.

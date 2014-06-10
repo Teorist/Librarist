@@ -1,0 +1,5 @@
+﻿Version 1
+ * Deleting and renaming (but can't reproduce) a user removes the highlight from other items that were newly lended to other users (item status is set to "in").
+
+ * Improvements
+   ** Create a common base viewer for the ViewPeople and ViewLibrary controls.

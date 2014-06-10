@@ -1,0 +1,50 @@
+﻿Project hosting:
+https://en.wikipedia.org/wiki/Comparison_of_open_source_software_hosting_facilities
+https://help.github.com/articles/create-a-repo (gitHub)
+
+Licensing:
+https://en.wikipedia.org/wiki/Comparison_of_free_software_licenses (Open Software License or Apache License 2.0)
+
+Data manipulation:
+http://www.dotnetperls.com/dataset
+http://stackoverflow.com/questions/4134553/c-sharp-validate-xml-against-xsd
+http://stackoverflow.com/questions/10712389/xsd-to-dataset-which-also-is-a-xsd
+http://stackoverflow.com/questions/10144856/what-is-actually-xsd-file-is-it-a-schema-file-or-dataset-file
+http://msdn.microsoft.com/en-us/library/system.data.dataset.readxml.aspx
+http://msdn.microsoft.com/en-us/library/system.data.dataset.writexml.aspx
+http://stackoverflow.com/questions/523153/how-do-i-transform-a-listt-into-a-dataset
+http://stackoverflow.com/questions/16/filling-a-dataset-or-datatable-from-a-linq-query-result-set
+http://www.c-sharpcorner.com/uploadfile/dhananjaycoder/creating-and-saving-xml-tree-using-linq-to-xml/
+http://geekswithblogs.net/mnf/archive/2008/07/22/generate-c-class-from-xsd-file.aspx
+http://stackoverflow.com/questions/784767/xml-schema-for-class-containing-a-datatable
+http://stackoverflow.com/questions/853526/using-linq-to-remove-objects-within-a-listt
+http://stackoverflow.com/questions/3309188/c-net-how-to-sort-a-list-t-by-a-property-in-the-object
+http://stackoverflow.com/questions/289010/c-sharp-list-sort-by-x-then-y
+
+Databases:
+http://stackoverflow.com/questions/6749556/what-is-a-good-choice-of-database-for-a-small-net-application
+http://stackoverflow.com/questions/572804/single-user-database-options
+http://stackoverflow.com/questions/13651028/offline-database-file-system-using-json-using-one-or-multiple-files
+http://weblogs.asp.net/scottgu/archive/2007/10/01/tip-trick-building-a-tojson-extension-method-using-net-3-5.aspx
+http://stackoverflow.com/questions/331976/how-do-i-serialize-a-c-sharp-anonymous-type-to-a-json-string
+http://msdn.microsoft.com/en-us/library/bb412179.aspx
+http://stackoverflow.com/questions/4521239/deserializing-json-using-c-sharp
+http://stackoverflow.com/questions/945585/c-sharp-automatic-property-deserialization-of-json
+JSON Schema: http://json-schema.org/
+
+Winforms:
+http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/54841e18-6b55-4469-ac91-f409b648b653/ (get path - System.Reflection.Assembly.GetEntryAssembly().Location;)
+http://sanity-free.org/143/csharp_dotnet_single_instance_application.html
+http://stackoverflow.com/questions/2189376/c-sharp-how-to-change-row-color-in-datagridview
+http://stackoverflow.com/questions/1643790/csharp-winform-modal-window-able-to-click-on-main-window
+
+Tab Controls:
+http://www.c-sharpcorner.com/UploadFile/mahesh/TabControlTutorial11302005235835PM/TabControlTutorial.aspx
+
+Popups and context menus
+http://stackoverflow.com/questions/921278/control-vs-usercontrol-in-winforms
+http://stackoverflow.com/questions/2321325/popup-window-and-context-menu
+http://stackoverflow.com/questions/5610688/popup-window-in-winforms
+http://stackoverflow.com/questions/8669368/how-to-make-a-popup-hint-drop-down-popup-window-in-winforms
+http://stackoverflow.com/questions/376910/how-can-i-add-a-context-menu-to-a-listboxitem
+http://stackoverflow.com/questions/7487702/winforms-listbox-right-click
